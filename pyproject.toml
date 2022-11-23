@@ -1,0 +1,5 @@
+[tool.black]
+skip-string-normalization = 1
+
+[tool.flake8]
+extend-ignore = ['WPS305']
