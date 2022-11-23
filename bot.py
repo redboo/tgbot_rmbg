@@ -28,7 +28,7 @@ async def send_welcome(message: types.Message) -> None:
 
 @dp.message_handler(content_types=ContentType.PHOTO)
 async def photo_handler(message: types.Message) -> None:
-    """Обработчек фото.
+    """Обработчик фото.
 
     Args:
         message (types.Message): объект сообщения
