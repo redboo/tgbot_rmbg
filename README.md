@@ -1,22 +1,26 @@
 # Телеграм бот для удаления заднего фона
 
-Загрузка скрипта:
+## Загрузка скрипта
 
-```sh
+```shell
 git clone https://github.com/redboo/tgbot_rmbg.git
 cd tgbot-rmbg/
 ```
 
-Установка зависимостей:
+## Установка виртуального окружения
 
-```python
+```shell
+python -m venv env && . ./env/bin/activate
+```
+
+## Установка зависимостей
+
+```shell
 pip install -r requirements.txt
 ```
 
-Запуск бота:
+## Запуск бота
 
-```python
-python -m venv env
-source ./env/bin/activate
-python bot.py
+```shell
+./env/bin/python bot.py
 ```
