@@ -4,7 +4,7 @@
 
 ```shell
 git clone https://github.com/redboo/tgbot_rmbg.git
-cd tgbot-rmbg/
+cd tgbot_rmbg/
 ```
 
 ## Установка виртуального окружения
